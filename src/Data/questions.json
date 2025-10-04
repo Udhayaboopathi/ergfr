@@ -1,0 +1,332 @@
+[
+  {
+    "id": "q1",
+    "question": "What does \"API\" stand for?",
+    "options": [
+      { "id": "a", "text": "Application Protocol Internet" },
+      { "id": "b", "text": "Automated Programming Interaction" },
+      { "id": "c", "text": "Application Programming Interface" },
+      { "id": "d", "text": "Application Processing Instance" }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": "q2",
+    "question": "What is the most common data format used by modern APIs?",
+    "options": [
+      { "id": "a", "text": "JSON" },
+      { "id": "b", "text": "XML" },
+      { "id": "c", "text": "HTML" },
+      { "id": "d", "text": "CSV" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": "q3",
+    "question": "Which HTTP method is used to request or get data from a server?",
+    "options": [
+      { "id": "a", "text": "POST" },
+      { "id": "b", "text": "GET" },
+      { "id": "c", "text": "PUT" },
+      { "id": "d", "text": "DELETE" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": "q4",
+    "question": "Which HTTP method is used to create a new resource on a server?",
+    "options": [
+      { "id": "a", "text": "POST" },
+      { "id": "b", "text": "GET" },
+      { "id": "c", "text": "CREATE" },
+      { "id": "d", "text": "UPDATE" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": "q5",
+    "question": "What is the common name for a specific API URL, like /users/123?",
+    "options": [
+      { "id": "a", "text": "Route" },
+      { "id": "b", "text": "Path" },
+      { "id": "c", "text": "Endpoint" },
+      { "id": "d", "text": "Link" }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": "q6",
+    "question": "If an API request is successful, what is the most common HTTP status code you will receive?",
+    "options": [
+      { "id": "a", "text": "200 OK" },
+      { "id": "b", "text": "404 Not Found" },
+      { "id": "c", "text": "500 Internal Server Error" },
+      { "id": "d", "text": "301 Moved Permanently" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": "q7",
+    "question": "What famous HTTP status code means \"Not Found\"?",
+    "options": [
+      { "id": "a", "text": "200" },
+      { "id": "b", "text": "503" },
+      { "id": "c", "text": "403" },
+      { "id": "d", "text": "404" }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": "q8",
+    "question": "What is a unique key used to identify and authenticate an application called?",
+    "options": [
+      { "id": "a", "text": "API Key" },
+      { "id": "b", "text": "Password" },
+      { "id": "c", "text": "Public Key" },
+      { "id": "d", "text": "Client ID" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": "q9",
+    "question": "In an API interaction, the client sends a ______, and the server sends back a ______.",
+    "options": [
+      { "id": "a", "text": "Packet, Signal" },
+      { "id": "b", "text": "Request, Response" },
+      { "id": "c", "text": "Message, Reply" },
+      { "id": "d", "text": "Query, Answer" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": "q10",
+    "question": "What does \"REST\" stand for?",
+    "options": [
+      { "id": "a", "text": "Remote Execution State Transfer" },
+      { "id": "b", "text": "Representational State Transfer" },
+      { "id": "c", "text": "Real-time State Transaction" },
+      { "id": "d", "text": "Representational Service Task" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": "q11",
+    "question": "Which HTTP method is typically used to completely update an existing resource?",
+    "options": [
+      { "id": "a", "text": "POST" },
+      { "id": "b", "text": "PATCH" },
+      { "id": "c", "text": "PUT" },
+      { "id": "d", "text": "UPDATE" }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": "q12",
+    "question": "What is the difference between Authentication and Authorization?",
+    "options": [
+      { "id": "a", "text": "They are the same thing" },
+      { "id": "b", "text": "Authentication is proving who you are; Authorization is what you're allowed to do" },
+      { "id": "c", "text": "Authentication is for users; Authorization is for servers" },
+      { "id": "d", "text": "Authorization is proving who you are; Authentication is what you're allowed to do" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": "q13",
+    "question": "In the URL .../search?query=books, what is ?query=books called?",
+    "options": [
+      { "id": "a", "text": "A Path Parameter" },
+      { "id": "b", "text": "A Header" },
+      { "id": "c", "text": "A Query Parameter" },
+      { "id": "d", "text": "A URL Fragment" }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": "q14",
+    "question": "After successfully creating a new item with a POST request, which status code is most appropriate?",
+    "options": [
+      { "id": "a", "text": "200 OK" },
+      { "id": "b", "text": "201 Created" },
+      { "id": "c", "text": "204 No Content" },
+      { "id": "d", "text": "302 Found" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": "q15",
+    "question": "What is the main purpose of an HTTP Header?",
+    "options": [
+      { "id": "a", "text": "To hold the main data payload of the request" },
+      { "id": "b", "text": "To define the URL endpoint" },
+      { "id": "c", "text": "To specify the HTTP method being used" },
+      { "id": "d", "text": "To pass extra information (metadata) with the request or response" }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": "q16",
+    "question": "An API operation that can be called many times with the same input and will produce the same result is called what?",
+    "options": [
+      { "id": "a", "text": "Recursive" },
+      { "id": "b", "text": "Stateful" },
+      { "id": "c", "text": "Idempotent" },
+      { "id": "d", "text": "Asynchronous" }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": "q17",
+    "question": "Which HTTP method is used for a partial update of a resource?",
+    "options": [
+      { "id": "a", "text": "PUT" },
+      { "id": "b", "text": "POST" },
+      { "id": "c", "text": "PATCH" },
+      { "id": "d", "text": "UPDATE" }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": "q18",
+    "question": "What popular API query language allows clients to request exactly the data they need?",
+    "options": [
+      { "id": "a", "text": "REST" },
+      { "id": "b", "text": "SOAP" },
+      { "id": "c", "text": "SQL" },
+      { "id": "d", "text": "GraphQL" }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": "q19",
+    "question": "What is a \"reverse API\" where a server sends data to a client automatically when an event happens?",
+    "options": [
+      { "id": "a", "text": "A Socket" },
+      { "id": "b", "text": "A Webhook" },
+      { "id": "c", "text": "An API Push" },
+      { "id": "d", "text": "A Callback" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": "q20",
+    "question": "Which HTTP status code indicates that the client's request is invalid or malformed?",
+    "options": [
+      { "id": "a", "text": "400 Bad Request" },
+      { "id": "b", "text": "404 Not Found" },
+      { "id": "c", "text": "500 Internal Server Error" },
+      { "id": "d", "text": "401 Unauthorized" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": "q21",
+    "question": "What is the term for limiting the number of API requests a user can make in a given time?",
+    "options": [
+      { "id": "a", "text": "Throttling" },
+      { "id": "b", "text": "Load Balancing" },
+      { "id": "c", "text": "Rate Limiting" },
+      { "id": "d", "text": "Caching" }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": "q22",
+    "question": "What is an API Gateway?",
+    "options": [
+      { "id": "a", "text": "A type of firewall that only allows API traffic" },
+      { "id": "b", "text": "A tool for documenting all available API endpoints" },
+      { "id": "c", "text": "A management tool that sits between clients and backend services" },
+      { "id": "d", "text": "A specific server that stores all API keys and tokens" }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": "q23",
+    "question": "What framework allows a user to grant a third-party app access to their resources without sharing a password (e.g., \"Login with Google\")?",
+    "options": [
+      { "id": "a", "text": "OAuth" },
+      { "id": "b", "text": "OpenID" },
+      { "id": "c", "text": "SAML" },
+      { "id": "d", "text": "JWT" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": "q24",
+    "question": "What does the acronym HATEOAS stand for?",
+    "options": [
+      { "id": "a", "text": "Hypertext and Text Engine of Application State" },
+      { "id": "b", "text": "Hypermedia as the Engine of Application State" },
+      { "id": "c", "text": "Highly Available Text-Oriented Application Service" },
+      { "id": "d", "text": "Hypermedia and Object Application System" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": "q25",
+    "question": "What browser security feature prevents a web page from making API requests to a different domain?",
+    "options": [
+      { "id": "a", "text": "CSRF (Cross-Site Request Forgery)" },
+      { "id": "b", "text": "XSS (Cross-Site Scripting)" },
+      { "id": "c", "text": "SSL/TLS" },
+      { "id": "d", "text": "CORS (Cross-Origin Resource Sharing)" }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": "q26",
+    "question": "What is the primary purpose of the OpenAPI Specification (formerly Swagger)?",
+    "options": [
+      { "id": "a", "text": "To automatically build APIs from a database" },
+      { "id": "b", "text": "To describe and document APIs in a standard, machine-readable way" },
+      { "id": "c", "text": "To provide a secure replacement for REST" },
+      { "id": "d", "text": "To test the performance and load capacity of an API" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": "q27",
+    "question": "In the context of APIs, what is \"serialization\"?",
+    "options": [
+      { "id": "a", "text": "Encrypting data before it is sent over the network" },
+      { "id": "b", "text": "Converting a data object into a format (like JSON) that can be transmitted" },
+      { "id": "c", "text": "Ordering a list of API results alphabetically or numerically" },
+      { "id": "d", "text": "Validating that incoming data matches a predefined schema" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": "q28",
+    "question": "What is a key difference between gRPC and a typical REST API?",
+    "options": [
+      { "id": "a", "text": "gRPC is stateful, while REST is stateless" },
+      { "id": "b", "text": "gRPC can only be used with Google Cloud services" },
+      { "id": "c", "text": "gRPC uses Protocol Buffers and HTTP/2 by default" },
+      { "id": "d", "text": "gRPC can only send data, not receive it" }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": "q29",
+    "question": "What is the difference between a 401 Unauthorized and a 403 Forbidden status code?",
+    "options": [
+      { "id": "a", "text": "401 is a client error; 403 is a server error" },
+      { "id": "b", "text": "401 means you aren't authenticated; 403 means you are authenticated but lack permission" },
+      { "id": "c", "text": "403 means you aren't authenticated; 401 means you are authenticated but lack permission" },
+      { "id": "d", "text": "There is no functional difference; they are interchangeable" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": "q30",
+    "question": "The REST principle of being \"stateless\" means:",
+    "options": [
+      { "id": "a", "text": "The client does not store any information about the server" },
+      { "id": "b", "text": "The connection between the client and server is never closed" },
+      { "id": "c", "text": "Each request must contain all info needed; the server stores no client context between requests" },
+      { "id": "d", "text": "The API does not have any on/off state; it is always available" }
+    ],
+    "answer": "c"
+  }
+]
